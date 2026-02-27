@@ -14,7 +14,8 @@ public class PasswordHashing {
 
             return sb.toString();
 
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
             throw new UserException("Error hashing password");
         }
     }
